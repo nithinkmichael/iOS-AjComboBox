@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E87D1A714E120070006C1C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E87D1A614E120070006C1C2 /* UIKit.framework */; };
+		3E87D1A914E120070006C1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E87D1A814E120070006C1C2 /* Foundation.framework */; };
+		3E87D1AB14E120070006C1C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E87D1AA14E120070006C1C2 /* CoreGraphics.framework */; };
+		3E87D1B114E120070006C1C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E87D1AF14E120070006C1C2 /* InfoPlist.strings */; };
+		3E87D1B314E120070006C1C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E87D1B214E120070006C1C2 /* main.m */; };
+		3E87D1B714E120070006C1C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E87D1B614E120070006C1C2 /* AppDelegate.m */; };
+		3E87D1BA14E120070006C1C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E87D1B914E120070006C1C2 /* ViewController.m */; };
+		3E87D1BD14E120070006C1C2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E87D1BB14E120070006C1C2 /* ViewController.xib */; };
+		3E87D1C714E1206A0006C1C2 /* combo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E87D1C614E1206A0006C1C2 /* combo_bg.png */; };
+		3E87D1CA14E122490006C1C2 /* AJComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E87D1C914E122490006C1C2 /* AJComboBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E87D1A214E120070006C1C2 /* AjComboBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjComboBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E87D1A614E120070006C1C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E87D1A814E120070006C1C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E87D1AA14E120070006C1C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E87D1AE14E120070006C1C2 /* AjComboBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AjComboBox-Info.plist"; sourceTree = "<group>"; };
+		3E87D1B014E120070006C1C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E87D1B214E120070006C1C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E87D1B414E120070006C1C2 /* AjComboBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AjComboBox-Prefix.pch"; sourceTree = "<group>"; };
+		3E87D1B514E120070006C1C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E87D1B614E120070006C1C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E87D1B814E120070006C1C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E87D1B914E120070006C1C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E87D1BC14E120070006C1C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3E87D1C614E1206A0006C1C2 /* combo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combo_bg.png; sourceTree = "<group>"; };
+		3E87D1C814E122490006C1C2 /* AJComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJComboBox.h; sourceTree = "<group>"; };
+		3E87D1C914E122490006C1C2 /* AJComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJComboBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E87D19F14E120070006C1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E87D1A714E120070006C1C2 /* UIKit.framework in Frameworks */,
+				3E87D1A914E120070006C1C2 /* Foundation.framework in Frameworks */,
+				3E87D1AB14E120070006C1C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E87D19714E120060006C1C2 = {
+			isa = PBXGroup;
+			children = (
+				3E87D1AC14E120070006C1C2 /* AjComboBox */,
+				3E87D1A514E120070006C1C2 /* Frameworks */,
+				3E87D1A314E120070006C1C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E87D1A314E120070006C1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E87D1A214E120070006C1C2 /* AjComboBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E87D1A514E120070006C1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E87D1A614E120070006C1C2 /* UIKit.framework */,
+				3E87D1A814E120070006C1C2 /* Foundation.framework */,
+				3E87D1AA14E120070006C1C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E87D1AC14E120070006C1C2 /* AjComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				3E87D1C814E122490006C1C2 /* AJComboBox.h */,
+				3E87D1C914E122490006C1C2 /* AJComboBox.m */,
+				3E87D1C614E1206A0006C1C2 /* combo_bg.png */,
+				3E87D1B514E120070006C1C2 /* AppDelegate.h */,
+				3E87D1B614E120070006C1C2 /* AppDelegate.m */,
+				3E87D1B814E120070006C1C2 /* ViewController.h */,
+				3E87D1B914E120070006C1C2 /* ViewController.m */,
+				3E87D1BB14E120070006C1C2 /* ViewController.xib */,
+				3E87D1AD14E120070006C1C2 /* Supporting Files */,
+			);
+			path = AjComboBox;
+			sourceTree = "<group>";
+		};
+		3E87D1AD14E120070006C1C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E87D1AE14E120070006C1C2 /* AjComboBox-Info.plist */,
+				3E87D1AF14E120070006C1C2 /* InfoPlist.strings */,
+				3E87D1B214E120070006C1C2 /* main.m */,
+				3E87D1B414E120070006C1C2 /* AjComboBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E87D1A114E120070006C1C2 /* AjComboBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E87D1C014E120070006C1C2 /* Build configuration list for PBXNativeTarget "AjComboBox" */;
+			buildPhases = (
+				3E87D19E14E120070006C1C2 /* Sources */,
+				3E87D19F14E120070006C1C2 /* Frameworks */,
+				3E87D1A014E120070006C1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AjComboBox;
+			productName = AjComboBox;
+			productReference = 3E87D1A214E120070006C1C2 /* AjComboBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E87D19914E120060006C1C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3E87D19C14E120060006C1C2 /* Build configuration list for PBXProject "AjComboBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E87D19714E120060006C1C2;
+			productRefGroup = 3E87D1A314E120070006C1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E87D1A114E120070006C1C2 /* AjComboBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E87D1A014E120070006C1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E87D1B114E120070006C1C2 /* InfoPlist.strings in Resources */,
+				3E87D1BD14E120070006C1C2 /* ViewController.xib in Resources */,
+				3E87D1C714E1206A0006C1C2 /* combo_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E87D19E14E120070006C1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E87D1B314E120070006C1C2 /* main.m in Sources */,
+				3E87D1B714E120070006C1C2 /* AppDelegate.m in Sources */,
+				3E87D1BA14E120070006C1C2 /* ViewController.m in Sources */,
+				3E87D1CA14E122490006C1C2 /* AJComboBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E87D1AF14E120070006C1C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E87D1B014E120070006C1C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E87D1BB14E120070006C1C2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E87D1BC14E120070006C1C2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E87D1BE14E120070006C1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E87D1BF14E120070006C1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E87D1C114E120070006C1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AjComboBox/AjComboBox-Prefix.pch";
+				INFOPLIST_FILE = "AjComboBox/AjComboBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E87D1C214E120070006C1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AjComboBox/AjComboBox-Prefix.pch";
+				INFOPLIST_FILE = "AjComboBox/AjComboBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E87D19C14E120060006C1C2 /* Build configuration list for PBXProject "AjComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E87D1BE14E120070006C1C2 /* Debug */,
+				3E87D1BF14E120070006C1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E87D1C014E120070006C1C2 /* Build configuration list for PBXNativeTarget "AjComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E87D1C114E120070006C1C2 /* Debug */,
+				3E87D1C214E120070006C1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E87D19914E120060006C1C2 /* Project object */;
+}
